@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial;
+  background: slategrey;
+}
+
+.form-search {
+  width: 400px;
+  height: 460px;
+  background: #4d4e4e;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px 30px;
+  border-top: 4px solid #017bab;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-search h5 {
+  margin-left: 0;
+  text-align: center;
+  height: 40px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid;
+  font-size: 20px;
+}
+.controls {
+  width: 100%;
+  border: 1px solid #017bab;
+  margin-bottom: 15px;
+  padding: 11px 10px;
+  background: #aaa0a0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.boton {
+  width: 100%;
+  height: 40px;
+  background: #017bab;
+  border: none;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.boton :hover {
+  background: #03020c;
+}
+
+.caja {
+  margin: 20px auto 40px auto;
+  border: 1px solid #017bab;
+  height: 30px;
+  overflow: hidden;
+  width: 230px;
+  position: relative;
+}
+select {
+  background: #aaa0a0;
+  border: none;
+  font-size: 14px;
+  height: 30px;
+  padding: 5px;
+  width: 250px;
+}
+select:focus {
+  outline: none;
+}
+
+.caja::after {
+  content: "\025be";
+  display: table-cell;
+  padding-top: 7px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  background-color: #d9d9d9;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  pointer-events: none;
+}
