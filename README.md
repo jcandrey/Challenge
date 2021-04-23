@@ -22,3 +22,7 @@ Construir una barra de busqueda para una tabla que muestra datos de comercios.
 . Realizar un <b>npm i</b> para instalar las dependencias del package.json
 
 . Ejecutarlo con <b>npm start</b>
+
+<b>Testing<b/>
+  
+ Por default se encuentra conectado a una base interna (./datosprueba/datos.json) para poder realizar pruebas de funcionamiento de la barra de busqueda
