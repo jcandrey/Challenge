@@ -23,6 +23,6 @@ Construir una barra de busqueda para una tabla que muestra datos de comercios.
 
 . Ejecutarlo con <b>npm start</b>
 
-<b>Testing<b/>
+<b>Testing</b>
   
  Por default se encuentra conectado a una base interna (./datosprueba/datos.json) para poder realizar pruebas de funcionamiento de la barra de busqueda
